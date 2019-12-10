@@ -25,7 +25,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: normal;
-  color: #11999e;
+  color: black;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -51,7 +51,7 @@ p {
     rgba(34, 193, 195, 0.4231442577030813) 0%,
     rgba(244, 45, 253, 0.12622549019607843) 100%
   );
-  padding-top: 180px;
+  padding-top: 160px;
   position: relative;
 }
 
@@ -68,22 +68,50 @@ p {
 
 .bottom-cloud {
   position: absolute;
+  opacity: 0.7;
 }
 
-/* .mountain {
-  padding: 100px;
-} */
+.mountain {
+  opacity: 0.5;
+}
 
 .profile {
-  width: 150px;
+  width: 35%;
   border-radius: 100%;
   margin: 0 auto;
   padding: 20px;
 }
 
+.skill-row {
+  /* making the width less than block will override the centre alignment of the body
+  so need to make margin: auto; to get it back to the centre */
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/*
+This property clears the wrapping of text (in the case of float)
+.description {
+  clear: left;
+}
+
+.description2 {
+  clear: right;
+} */
+
+.printing {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
 .stickers {
   border-radius: 100%;
-  width: 150px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 /* pink square 30px wide by 30px tall and rotated 45 degrees counter-clockwise */
