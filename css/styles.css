@@ -1,0 +1,121 @@
+/********************************** Tags *************************************/
+body {
+  background-color: #grey;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #11999e;
+}
+h1 {
+  color: #11999e;
+  margin-top: 0;
+  font-size: 3em;
+  font-weight: 400;
+  font-family: 'Short Stack', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #11999e;
+  font-family: 'Short Stack', cursive;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #11999e;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  border-color: lightgrey;
+  width: 5%;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/********************************** Classes *************************************/
+
+.topcontainer {
+  /* background-color: #e0ebe8; */
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    13deg,
+    rgba(34, 193, 195, 0.4231442577030813) 0%,
+    rgba(244, 45, 253, 0.12622549019607843) 100%
+  );
+  padding-top: 180px;
+  position: relative;
+}
+
+.middlecontainer {
+}
+
+.bottomcontainer {
+}
+
+.top-cloud {
+  position: absolute;
+  right: 270px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+/* .mountain {
+  padding: 100px;
+} */
+
+.profile {
+  width: 150px;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.stickers {
+  border-radius: 100%;
+  width: 150px;
+}
+
+/* pink square 30px wide by 30px tall and rotated 45 degrees counter-clockwise */
+.heart {
+  /* position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  background-color: pink;
+  height: 2em;
+  width: 2em;
+  transform: rotate(-45deg);
+}
+.heart::after {
+  background-color: pink;
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 0px;
+  left: 1em;
+}
+.heart::before {
+  content: '';
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: -1em;
+  left: 0px;
+}
