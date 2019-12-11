@@ -58,7 +58,10 @@ p {
 .middlecontainer {
 }
 
-.bottomcontainer {
+.bottom-container {
+  margin-top: 30px;
+  background-color: #66bfbf;
+  padding: 30px;
 }
 
 .top-cloud {
@@ -112,6 +115,40 @@ This property clears the wrapping of text (in the case of float)
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+.myButton {
+  box-shadow: 0px 5px 7px -7px #276873;
+  background: linear-gradient(to bottom, #66bfbf 5%, #2e979e 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 13px 32px;
+  text-decoration: none;
+  margin-top: 20px;
+  /* text-shadow: 0px 1px 0px #3d768a; */
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  /* font-size: 1.5rem; */
+  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: #11999e;
 }
 
 /* pink square 30px wide by 30px tall and rotated 45 degrees counter-clockwise */
